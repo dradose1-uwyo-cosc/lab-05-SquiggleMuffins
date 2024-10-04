@@ -1,8 +1,8 @@
-# Your Name Here
+# Jackie Hall
 # UWYO COSC 1010
-# Submission Date
+# Submission Date 10/4/2024
 # Lab 03 
-# Lab Section: 
+# Lab Section: 15
 # Sources, people worked with, help given to: 
 # your
 # comments
