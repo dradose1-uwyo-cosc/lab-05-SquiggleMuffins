@@ -125,14 +125,17 @@ zero_count = 0
 for number in numbers:
     if "-" in str(number):
         neg_count += 1
-
-
-for number in numbers:
-    if "0" in str(number):
+        print(f"{number} is negative")
+    elif "0" in str(number):
         zero_count += 1
+        print(f"{number} has a zero in it")
+    else:
+        pos_count += 1
+        print(f"{number} is positive")
 
-for number in numbers:
-    if 
+
+
+
 
 
 print(f'There are {pos_count} positive numbers')
@@ -141,6 +144,13 @@ print(f"Zero occurred {zero_count} time(s)")
 # Given the same numbers list, give the sum of all positive numbers, and the sum of all negative numbers
 # This should be done within a single loop
 
+pos_sum = 0
+neg_sum = 0
+for number in numbers:
+    if "-" in str(number):
+        neg_sum += number
+    else:
+        pos_sum += number
 
 
 print(f"Sum of positive numbers {pos_sum}")
